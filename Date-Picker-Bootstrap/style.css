@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('Images/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.dropdown-menu{
+    width: 100%;
+}
+
+.calendar-container button{
+    width: 40px;
+    height: 40px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
