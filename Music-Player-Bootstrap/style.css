@@ -1,0 +1,21 @@
+.player{
+    width: 400px;
+}
+
+.btn-sm{
+    height: 50px;
+    width: 50px;
+}
+
+.btn-lg{
+    height: 100px;
+    width: 100px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
