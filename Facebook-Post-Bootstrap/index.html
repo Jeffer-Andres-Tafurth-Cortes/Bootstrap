@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Post</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="post-container container-sm mt-5 border border-bottom-0 p-0 bg-white rounded overflow-hidden" style="width: 500px">
+        <div class="post">
+            <div class="header row d-flex p-1 pb-1 align-items-center">
+                <div class="col-auto profile p-0">
+                    <a href="#">
+                        <img src="Images/profile-image.jpg" width="80" alt="" class="rounded-circle ps-2">
+                    </a>
+                </div>
+                <div class="col post-info">
+                    <div class="username">
+                        <a href="" class="fw-bold link-dark text-decoration-none">Mark Zuckerberg</a> en
+                        <a href="" class="link-secondary text-decoration-none">Facebook HQ</a>
+                    </div>
+                    <div class="date-location">
+                        <span class="fw-bold text-secondary">20h</span>
+                        <span>Paris, France</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="text p-3 pt-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Impedit eum magnam ullam fugiat eos vero cum id odit non accusamus. 
+                    Accusantium, minus quibusdam. Voluptatum, perspiciatis. Corporis odio nesciunt iste velit.
+                </div>
+                <div class="images container-sm text-center" style="height: 600px; background-color: brown;">
+                    <img src="Images/contente-image.webp" alt="" class="h-100" style="object-fit: cover;">
+                </div>
+            </div>
+
+            <div class="interactions d-flex justify-content-between p-2 px-3">
+                <div class="reaction d-flex align-items-center text-secondary">
+                    <img src="Images/Facebook-Like.jpg" width="22" alt="">
+                    <img src="Images/facebook-love-png-3.png" width="16" alt="" class="position-relative" style="margin-left: -6px;">
+                    <a href="#" class="text-secondary text-decoration-none">256K</a>
+                </div>
+
+                <div class="comments-count d-flex gap-2">
+                    <a href="#" class="text-secondary text-decoration-none">24K comments</a>
+                    <a href="#" class="text-secondary text-decoration-none">3.2 shared</a>
+
+                </div>
+
+            </div>
+
+            <div class="actions d-flex">
+                <button class="btn btn-outline-light text-black d-block w-50 text-center border rounded-0 border-start-0 p-2">Like</button>
+                <button class="btn btn-outline-light text-black d-block w-50 text-center border rounded-0 border-end-0 p-2">Comment</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

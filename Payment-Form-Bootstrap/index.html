@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="card-form container container-md border border-secondary rounded" style="margin: 100px;">
+
+        <!-- VISA CARD -->
+        <div class="card position-relative mx-auto bg-dark text-white p-3 fs-6" style="width: 80%; margin-top: -60px;">
+            <div class="fw-bold-fs-4">VISA</div>
+            <div class="py-3 fs-4">**** **** **** *567</div>
+            <div>
+                <div>MARCOS RIVAS</div>
+                <div>12/23</div>
+            </div>
+        </div>
+
+        <!-- FORM -->
+        <form action="" class="p-3">
+
+            <div class="mb-3">
+                <label for="" class="form-label">Card Number</label>
+                <input type="email" name="" id="" placeholder="0000-0000-0000-0000" class="form-control" maxlength="19">
+            </div>
+
+            <div class="mb-3">
+                <label for="" class="form-label">Name on card</label>
+                <input type="text" name="" id="" placeholder="John Smith" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col">
+                        <label for="" class="form-label">Expiry Date</label>
+                        <input type="email" name="" id="" placeholder="12/12" class="form-control" maxlength="5">
+                    </div>
+                    <div class="col">
+                        <label for="" class="form-label">Security Code</label>
+                        <input type="password" name="" id="" placeholder="***" class="form-control" maxlength="3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <input type="checkbox" name="" id="" placeholder="John Smith" class="form-check-input">
+                <label for="" class="form-check-label">Remember my card info</label>
+            </div>
+            
+            <div class="mb-3 d-grid">
+                <input type="submit" name="" id="" placeholder="John Smith" class="btn btn-primary btn-lg" value="Check Out">
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
