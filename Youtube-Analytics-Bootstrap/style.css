@@ -1,0 +1,8 @@
+.nav-item{
+    height: 116px;
+    width: 250px;
+}
+
+.nav-item a:not(.active){
+    margin-top: 2px;
+}
